@@ -1,2 +1,2 @@
 # HCJ
-Repo to learn HTML, CSS, Javascript
+Repo to refresh HTML, CSS, Javascript knowledge
