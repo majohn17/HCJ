@@ -1,0 +1,17 @@
+* {
+    background: #025252;
+    font-family: "Rubik", sans-serif;
+}
+h1 {
+    color: #fff; 
+    font-size: 60px,; 
+    text-align: center;
+}
+p {
+    color: #fff; 
+    font-size: 1.5em; 
+    text-align: center;
+}
+hr {
+    color: #fff
+}
