@@ -59,7 +59,7 @@ h1 {
     }
     h1 {
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 75px;
     }
     .col-dsk-4 {
         float: left;
@@ -70,18 +70,32 @@ h1 {
 
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin: 0px 15px 0px 15px;
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
     .col-tab-6, .col-tab-12 {
         float: left;
+        margin: 15px;
     }   
     .col-tab-6 {
-        width: 50%;
+        width: calc(50% - 30px);
     }
     .col-tab-12 {
-        width: 100%;
+        width: calc(100% - 30px);
     }
 }
 
 /* Mobile View */
 @media (max-width: 767px) {
-    
+    body {
+        margin: 0px 60px 0px 60px;
+    }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 }
