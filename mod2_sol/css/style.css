@@ -1,0 +1,90 @@
+/* General Styles */
+.row {
+    width: 100%;
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+    .col-dsk-1, .col-dsk-2, .col-dsk-3, .col-dsk-4, .col-dsk-5, .col-dsk-6, .col-dsk-7, .col-dsk-8, .col-dsk-9, .col-dsk-10, .col-dsk-11, .col-dsk-12 {
+        float: left;
+    }   
+    .col-dsk-1 {
+        width: 8.33%;
+    }
+    .col-dsk-2 {
+        width: 16.66%;
+    }
+    .col-dsk-3 {
+        width: 25%;
+    }
+    .col-dsk-4 {
+        width: 33.33%;
+    }
+    .col-dsk-5 {
+        width: 41.66%;
+    }
+    .col-dsk-6 {
+        width: 50%;
+    }
+    .col-dsk-7 {
+        width: 58.33%;
+    }
+    .col-dsk-8 {
+        width: 66.66%;
+    }
+    .col-dsk-9 {
+        width: 75%;
+    }
+    .col-dsk-10 {
+        width: 83.33%;
+    }
+    .col-dsk-11 {
+        width: 91.66%;
+    }
+    .col-dsk-12 {
+        width: 100%;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-tab-1, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-tab-10, .col-tab-11, .col-tab-12 {
+        float: left;
+    }   
+    .col-tab-1 {
+        width: 8.33%;
+    }
+    .col-tab-2 {
+        width: 16.66%;
+    }
+    .col-tab-3 {
+        width: 25%;
+    }
+    .col-tab-4 {
+        width: 33.33%;
+    }
+    .col-tab-5 {
+        width: 41.66%;
+    }
+    .col-tab-6 {
+        width: 50%;
+    }
+    .col-tab-7 {
+        width: 58.33%;
+    }
+    .col-tab-8 {
+        width: 66.66%;
+    }
+    .col-tab-9 {
+        width: 75%;
+    }
+    .col-tab-10 {
+        width: 83.33%;
+    }
+    .col-tab-11 {
+        width: 91.66%;
+    }
+    .col-tab-12 {
+        width: 100%;
+    }
+}
